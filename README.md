@@ -43,21 +43,26 @@ What problem does this application try to solve?: Help user quickly and easily c
 ```
 
 ## Installation
+```
 1.Download GitHub repository: [Github Repository]https://github.com/HuiPan-Peter/SVG-Logo-Maker_HuiPan.git
 2.Open folder with VSCode to check "dependencies": {"inquirer": "^8.2.4"}; {"jest": "^24.9.0"}
 3.Under node command-line run “npm i” to install inquirer@8.2.4 and jest@24.9.0
+```
 
 ## Usage
+```
 1.Under bash command ``` node index.js ``` to invoke the application;
 2.Follow Inquirer prompt, specify "character","text","shape" and "color";
 3.When you see console message "logo.svg file Generated!", go to the directory "example" to check the svg file created.
 4.Under bash command ``` npm run test ``` to invoke the Jest Test. 
 [Github Usage & Walkthrough Video demo]https://github.com/HuiPan-Peter/SVG-Logo-Maker_HuiPan/tree/main/Screenshots%20%26%20Video
+```
 
 ## Tests
-
+```
 Test-Driven Development
-
+Under bash command ``` npm run test ``` to invoke the Jest Test. 
+```
 ## Contributions
 
 https://github.com/HuiPan-Peter
